@@ -26,7 +26,7 @@ depdencies:
 ```YAML
 depdencies:
   ...
-  lyacc: ^1.0.0-nullsafety.0
+  lyacc: ^1.0.1-nullsafety.0
 ```
 
 ## Usage :hammer:

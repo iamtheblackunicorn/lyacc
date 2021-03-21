@@ -30,7 +30,7 @@ List<dynamic> parseText(Map<String, dynamic> tokenMap, String text) {
           }
         } else {}
       }
-      if (parsedLineList.length == 0) {
+      if (parsedLineList.isEmpty == true) {
       } else {
         result.add(parsedLineList);
       }

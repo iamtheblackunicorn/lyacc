@@ -6,3 +6,8 @@
 - initial release
 - upload to GitHub
 - upload to pub.dev
+
+## Version 1.0.1-nullsafety.0: Code optimization
+
+- minor fixes
+- code optimization
