@@ -3,6 +3,9 @@ licensed under the MIT license. */
 
 import 'dart:io';
 
+
+/// This method synthesizes the matched tokens from a string of text.
+/// The tokens are supplied as a map.
 List<dynamic> parseText(Map<String, dynamic> tokenMap, String text){
   List<dynamic> result = [];
   List<String> lineList = text.split('\n');
@@ -38,6 +41,8 @@ List<dynamic> parseText(Map<String, dynamic> tokenMap, String text){
   return result;
 }
 
+/// This method builds an AST of the matched tokens, removes all unneeded tokens and constructs an intermediate
+/// representation by trying to "understand" the code it is given.
 List<dynamic> constructParseTree(Map<String, dynamic> grammar, List<String> cosmeticTokens, List<dynamic> parsedTokens){
   List<dynamic> result = [];
   List<dynamic> tokens = parsedTokens;
@@ -68,6 +73,7 @@ List<dynamic> constructParseTree(Map<String, dynamic> grammar, List<String> cosm
   return result;
 }
 
+/// This method prints a visual of the AST.
 void visualParseTree(List<dynamic> parseTree) {
   String spaces = ' ';
   print('\n');
@@ -85,6 +91,10 @@ void visualParseTree(List<dynamic> parseTree) {
   print('\n');
 }
 
+/// This method takes the intermediate representation and AST from the
+/// parse tree and executes a function with a given number of arguments.
+/// Each function has a dynamic list of arguments. This method adds to
+/// that list and runs the result.
 void executeParseTree(List<dynamic> parseTree, Map<String, dynamic> functionMap) {
   for (int i = 0; i < parseTree.length; i++) {
     String operationType = parseTree[i][0];
@@ -107,6 +117,7 @@ void executeParseTree(List<dynamic> parseTree, Map<String, dynamic> functionMap)
   }
 }
 
+/// This method executes each line of a given line of text!
 void evaluateLine(
   Map<String, dynamic> tokenMap,
   String text,
@@ -124,6 +135,9 @@ void evaluateLine(
   }
 }
 
+
+/// This method provides a shell method.
+/// It can be customized.
 void shell(
   String preAmble,
   String quitStatement,
@@ -156,6 +170,8 @@ void shell(
   }
 }
 
+/// This method reads the contents of a file
+/// and executes each line of code.
 void readFile(
   String fileName,
   Map<String, dynamic> tokenMap,
@@ -179,6 +195,8 @@ void readFile(
   }
 }
 
+/// This method contains the entire app/interpreter.
+/// This is the only method you need to call!
 void app(
   List<String> arguments,
   String versionString,
