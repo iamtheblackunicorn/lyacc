@@ -76,5 +76,5 @@ This is the only method you need to call!
 
 ## Note :scroll:
 
-- *Linear YACC* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:
+- *Linear YACC* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn"* :unicorn:
 - licensed under the MIT license
