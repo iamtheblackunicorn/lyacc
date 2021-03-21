@@ -153,9 +153,8 @@ void shell(
     i = i + 1;
     String prompt = 'line\=$i> ';
     stdout.write(prompt);
-    input = stdin.readLineSync().toString() as String;
+    input = stdin.readLineSync().toString();
     assert(input is String);
-    //assert(input is String);
     if (input == quitStatement) {
       exit(0);
     } else {
@@ -182,7 +181,7 @@ void readFile(
   String fileContents = File(fileName).readAsStringSync();
   List<String> fileContentsList = fileContents.split('\n');
   for (int i = 0; i < fileContentsList.length; i++) {
-    if (fileContentsList[i] == '\n' || fileContentsList[i] == null){}
+    if (fileContentsList[i] == '\n'){}
     else {
       evaluateLine(
         tokenMap,
