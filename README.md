@@ -1,8 +1,8 @@
-# LINEAR YACC :bison:
+# LINEAR YACC :water_buffalo:
 
 [![Build Status](https://travis-ci.com/iamtheblackunicorn/lyacc.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/lyacc)
 
-*An over-powered engine to make language development in Dart easier. Your rules. Your language.* :bison:
+*An over-powered engine to make language development in Dart easier. Your rules. Your language.* :water_buffalo:
 
 ## About :books:
 
