@@ -33,7 +33,7 @@ depdencies:
 
 ### Importing
 
-Import the engine-API like this:
+Import the engine's API like this:
 
 ```dart
 import 'package:lyacc/lyacc.dart';
