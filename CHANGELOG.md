@@ -11,3 +11,9 @@
 
 - minor fixes
 - code optimization
+
+## Version 1.1.0-nullsafety.0: Milestone update
+
+- perfection everywhere
+- updated docs
+- minor fixes
