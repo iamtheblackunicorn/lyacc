@@ -41,5 +41,5 @@ import 'package:lyacc/lyacc.dart';
 
 ## Note :scroll:
 
-- *Linear YACC* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn"* :unicorn:
-- licensed under the MIT license
+- *Linear YACC :water_buffalo:* by Alexander Abraham :black_heart: a.k.a. *"The Black Unicorn" :unicorn:*
+- Licensed under the MIT license.
