@@ -1,6 +1,6 @@
 # LINEAR YACC :water_buffalo:
 
-[![Build Status](https://travis-ci.com/iamtheblackunicorn/lyacc.svg?branch=main)](https://travis-ci.com/iamtheblackunicorn/lyacc)
+[![GitHub CI](https://github.com/iamtheblackunicorn/lyacc/actions/workflows/dart.yml/badge.svg)](https://github.com/iamtheblackunicorn/lyacc/actions)
 
 *An over-powered engine to make language development in Dart easier. Your rules. Your language.* :water_buffalo:
 
